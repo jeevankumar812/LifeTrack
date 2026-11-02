@@ -1,0 +1,6 @@
+@LifeTrack.API_HostAddress = http://localhost:5198
+
+GET {{LifeTrack.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
