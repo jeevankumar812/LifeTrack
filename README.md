@@ -10,7 +10,8 @@ LifeTrack is a full-stack personal productivity application designed to help use
 
 ## Screenshots
 
-<table>
+
+<table align="center">
   <tr>
     <td align="center" width="50%">
       <h3>Registration</h3>
@@ -21,9 +22,11 @@ LifeTrack is a full-stack personal productivity application designed to help use
       <img src="screenshots/login.jpeg" width="260" alt="Login Screen"/>
     </td>
   </tr>
+
   <tr>
-    <td colspan="2"><br/><br/></td>
+    <td colspan="2" height="40"></td>
   </tr>
+
   <tr>
     <td align="center" width="50%">
       <h3>Dashboard</h3>
@@ -34,9 +37,11 @@ LifeTrack is a full-stack personal productivity application designed to help use
       <img src="screenshots/over.jpeg" width="260" alt="Dashboard Overview"/>
     </td>
   </tr>
+
   <tr>
-    <td colspan="2"><br/><br/></td>
+    <td colspan="2" height="40"></td>
   </tr>
+
   <tr>
     <td align="center" width="50%">
       <h3>Task Management</h3>
