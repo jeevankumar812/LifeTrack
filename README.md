@@ -10,6 +10,15 @@ LifeTrack is a full-stack personal productivity application designed to help use
 
 ## Screenshots
 
+### Registration
+
+![Registration Screen](screenshots/register.png)
+
+### Login
+
+![Login Screen](screenshots/login.png)
+
+
 ### Dashboard
 
 ![LifeTrack Dashboard](screenshots/dashboard.png)
@@ -26,13 +35,9 @@ LifeTrack is a full-stack personal productivity application designed to help use
 
 ![Expense Tracking](screenshots/expenses.png)
 
-### Login
 
-![Login Screen](screenshots/login.png)
 
-### Registration
 
-![Registration Screen](screenshots/register.png)
 
 ---
 
