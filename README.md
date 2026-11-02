@@ -10,24 +10,42 @@ LifeTrack is a full-stack personal productivity application designed to help use
 
 ## Screenshots
 
-### Registration
-<img src="screenshots/reg.jpeg" width="300" alt="Registration Screen"/>
+## Screenshots
 
-### Login
-<img src="screenshots/login.jpeg" width="300" alt="Login Screen"/>
+<table>
+  <tr>
+    <td align="center">
+      <b>Registration</b><br/>
+      <img src="screenshots/reg.jpeg" width="250" alt="Registration Screen"/>
+    </td>
+    <td align="center">
+      <b>Login</b><br/>
+      <img src="screenshots/login.jpeg" width="250" alt="Login Screen"/>
+    </td>
+  </tr>
 
-### Dashboard
-<img src="screenshots/dash.jpeg" width="300" alt="LifeTrack Dashboard"/>
+  <tr>
+    <td align="center">
+      <b>Dashboard</b><br/>
+      <img src="screenshots/dash.jpeg" width="250" alt="LifeTrack Dashboard"/>
+    </td>
+    <td align="center">
+      <b>Dashboard Overview</b><br/>
+      <img src="screenshots/over.jpeg" width="250" alt="Dashboard Overview"/>
+    </td>
+  </tr>
 
-### Dashboard Overview
-<img src="screenshots/over.jpeg" width="300" alt="Dashboard Overview"/>
-
-### Task Management
-<img src="screenshots/task.jpeg" width="300" alt="Task Management"/>
-
-### Expense Tracking
-<img src="screenshots/exp.jpeg" width="300" alt="Expense Tracking"/>
-
+  <tr>
+    <td align="center">
+      <b>Task Management</b><br/>
+      <img src="screenshots/task.jpeg" width="250" alt="Task Management"/>
+    </td>
+    <td align="center">
+      <b>Expense Tracking</b><br/>
+      <img src="screenshots/exp.jpeg" width="250" alt="Expense Tracking"/>
+    </td>
+  </tr>
+</table>
 
 
 ---
