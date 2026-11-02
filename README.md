@@ -133,3 +133,96 @@ LifeTrack/
 │
 ├── .gitignore
 └── README.md
+
+
+
+## Getting Started
+
+Follow these steps to run LifeTrack locally.
+
+### Prerequisites
+
+Install the following:
+
+- [.NET 10 SDK](https://dotnet.microsoft.com/download)
+- [Node.js](https://nodejs.org/)
+- [PostgreSQL](https://www.postgresql.org/download/)
+- [Git](https://git-scm.com/)
+- Android Studio (optional, for Android emulator)
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/jeevankumar812/LifeTrack.git
+
+cd LifeTrack
+
+
+2. Database Setup
+Make sure PostgreSQL is running.
+
+Create the database:
+CREATE DATABASE lifetrack_db;
+
+
+Configure your PostgreSQL connection string and JWT settings in your local backend configuration.
+
+Do not commit passwords or JWT secrets to GitHub.
+3. Run the Backend (.NET 10)
+Open Terminal 1:
+cd LifeTrack/backend/LifeTrack.API
+
+dotnet restore
+
+dotnet build
+
+dotnet run --urls http://0.0.0.0:5000
+
+
+Backend API:
+http://localhost:5000
+
+
+The backend runs on port 5000.
+4. Configure the Frontend API URL
+Open:
+LifeTrack.Mobile/src/config/api.ts
+
+
+Configure the API URL based on where you are running the application:
+Platform	API URL
+Web browser	http://localhost:5000/api
+Android emulator	http://10.0.2.2:5000/api
+Physical Android device	http://YOUR_COMPUTER_IP:5000/api
+
+For a physical Android device, both your phone and computer should be connected to the same Wi-Fi network.
+5. Run the Frontend (React Native + Expo)
+Open Terminal 2:
+cd LifeTrack/LifeTrack.Mobile
+
+npm install
+
+npx expo start
+
+
+6. Run on Different Platforms
+Run on Web:
+npx expo start --web
+
+
+Open the URL displayed in your terminal, usually:
+http://localhost:8081
+
+
+Run on Android:
+npx expo start
+
+
+- Press a to open the Android emulator.
+- Or scan the QR code using Expo Go on your Android phone.
+7. Access the Application
+Service	URL
+Backend API	http://localhost:5000
+Frontend Web	http://localhost:8081
+
+Important: Start the backend before using the frontend. The application requires a running API and configured PostgreSQL database.
