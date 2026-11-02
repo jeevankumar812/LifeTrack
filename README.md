@@ -10,43 +10,44 @@ LifeTrack is a full-stack personal productivity application designed to help use
 
 ## Screenshots
 
-## Screenshots
-
 <table>
   <tr>
-    <td align="center">
-      <b>Registration</b><br/>
-      <img src="screenshots/reg.jpeg" width="250" alt="Registration Screen"/>
+    <td align="center" width="50%">
+      <h3>Registration</h3>
+      <img src="screenshots/reg.jpeg" width="260" alt="Registration Screen"/>
     </td>
-    <td align="center">
-      <b>Login</b><br/>
-      <img src="screenshots/login.jpeg" width="250" alt="Login Screen"/>
-    </td>
-  </tr>
-
-  <tr>
-    <td align="center">
-      <b>Dashboard</b><br/>
-      <img src="screenshots/dash.jpeg" width="250" alt="LifeTrack Dashboard"/>
-    </td>
-    <td align="center">
-      <b>Dashboard Overview</b><br/>
-      <img src="screenshots/over.jpeg" width="250" alt="Dashboard Overview"/>
+    <td align="center" width="50%">
+      <h3>Login</h3>
+      <img src="screenshots/login.jpeg" width="260" alt="Login Screen"/>
     </td>
   </tr>
-
   <tr>
-    <td align="center">
-      <b>Task Management</b><br/>
-      <img src="screenshots/task.jpeg" width="250" alt="Task Management"/>
+    <td colspan="2"><br/><br/></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <h3>Dashboard</h3>
+      <img src="screenshots/dash.jpeg" width="260" alt="Dashboard"/>
     </td>
-    <td align="center">
-      <b>Expense Tracking</b><br/>
-      <img src="screenshots/exp.jpeg" width="250" alt="Expense Tracking"/>
+    <td align="center" width="50%">
+      <h3>Dashboard Overview</h3>
+      <img src="screenshots/over.jpeg" width="260" alt="Dashboard Overview"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><br/><br/></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <h3>Task Management</h3>
+      <img src="screenshots/task.jpeg" width="260" alt="Task Management"/>
+    </td>
+    <td align="center" width="50%">
+      <h3>Expense Tracking</h3>
+      <img src="screenshots/exp.jpeg" width="260" alt="Expense Tracking"/>
     </td>
   </tr>
 </table>
-
 
 ---
 
